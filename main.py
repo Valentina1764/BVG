@@ -1,4 +1,10 @@
-from src.masks import get_mask_card_number, get_mask_account
+from datetime import datetime
+from src.widget import get_date, mask_account_card
 
-print(get_mask_card_number("7000792289606361"))
-print(get_mask_account("73654108430135874305"))
+simple = open("data/card_account.txt", encoding="utf-8")
+for line in simple:
+    print(mask_account_card(line))
+
+now_date_time = str(datetime.now())
+now_date = get_date(now_date_time)
+print(now_date)
