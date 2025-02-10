@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f981c0-8bcd-47d0-a7f6-5d719b7d1947" name="Changes" comment="processing init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/states.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/states.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing.py" afterDir="false" />
-    </list>
+    <list default="true" id="57f981c0-8bcd-47d0-a7f6-5d719b7d1947" name="Changes" comment="processing delevop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,6 +46,9 @@
     <setting file="file://$USER_HOME$/AppData/Local/Temp/110c7373-b5ff-4c60-a782-5f4a6680fe49_26 15_50_31679659c7b6c6d1.2430662927_01_2025.zip.e49/27_01_2025/main.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Temp/ac3a37e4-998a-4fa0-acc2-901e942babdf_26 15_50_31679659c7b6c6d1.2430662927_01_2025.zip.bdf/27_01_2025/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -62,10 +65,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/homework__10__1",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Python/Lesson/27_01_2025",
     "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -100,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739105132785</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="processing delevop">
+      <option name="closed" value="true" />
+      <created>1739136209858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739136209858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first init" />
     <MESSAGE value="processing init" />
-    <option name="LAST_COMMIT_MESSAGE" value="processing init" />
+    <MESSAGE value="processing delevop" />
+    <option name="LAST_COMMIT_MESSAGE" value="processing delevop" />
   </component>
 </project>
