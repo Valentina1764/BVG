@@ -17,9 +17,12 @@ now_state = []
 for line in state_now:
     line_now = ast.literal_eval(line)
     now_state.append(line_now)
+
 state_executed = filter_by_state(now_state)
 print(state_executed, end="\n\n")
 state_canceled = filter_by_state(now_state, state="CANCELED")
 print(state_canceled, end="\n\n")
+sort_now_state = sort_by_date(now_state)
+print(sort_now_state, end="\n\n")
 sort_now_state = sort_by_date(now_state, True)
 print(sort_now_state)
