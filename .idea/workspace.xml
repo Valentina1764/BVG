@@ -65,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#1 on feature/homework__10__1",
+    "git-widget-placeholder": "feature/homework__10__1",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Python/Lesson/27_01_2025",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -125,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739217688375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixing problem in processing.py">
+      <option name="closed" value="true" />
+      <created>1739294188114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739294188114</updated>
+    </task>
+    <task id="LOCAL-00006" summary="the following files have been added: README.md, requirements.txt">
+      <option name="closed" value="true" />
+      <created>1739298236914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739298236914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +172,8 @@
     <MESSAGE value="processing init" />
     <MESSAGE value="processing delevop" />
     <MESSAGE value="fixing def in processing.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing def in processing.py" />
+    <MESSAGE value="fixing problem in processing.py" />
+    <MESSAGE value="the following files have been added: README.md, requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="the following files have been added: README.md, requirements.txt" />
   </component>
 </project>
