@@ -1,22 +1,29 @@
+import re
+
 from src.masks import get_mask_account, get_mask_card_number
 
 
-def mask_account_card(loc_account_card: str) -> str:
-    """ "Функция возвращения замаскерованных карт и счетов"""
-    if "Maestro" in loc_account_card:
-        return f"Maestro {get_mask_card_number(loc_account_card[-16:])}"
-    elif "MasterCard" in loc_account_card:
-        return f"MasterCard {get_mask_card_number(loc_account_card[-16:])}"
-    elif "Visa Classic" in loc_account_card:
-        return f"Visa Classic {get_mask_card_number(loc_account_card[-16:])}"
-    elif "Visa Platinum" in loc_account_card:
-        return f"Visa Platinum {get_mask_card_number(loc_account_card[-16:])}"
-    elif "Visa Gold" in loc_account_card:
-        return f"Visa Gold {get_mask_card_number(loc_account_card[-16:])}"
+def mask_account_card(account_card: str) -> str:
+    """Функция для маскирования номеров карт и счетов."""
+    number_pattern = r"\d+"
+    number_match = re.search(number_pattern, account_card)
+    number = number_match.group()
+    if "Maestro" in account_card:
+        return f"Maestro {get_mask_card_number(number)}"
+    elif "MasterCard" in account_card:
+        return f"MasterCard {get_mask_card_number(number)}"
+    elif "Visa Classic" in account_card:
+        return f"Visa Classic {get_mask_card_number(number)}"
+    elif "Visa Platinum" in account_card:
+        return f"Visa Platinum {get_mask_card_number(number)}"
+    elif "Visa Gold" in account_card:
+        return f"Visa Gold {get_mask_card_number(number)}"
+    elif "Счет" in account_card:
+        return f"Счет {get_mask_account(number)}"
     else:
-        return f"Счет {get_mask_account(loc_account_card[-20:])}"
+        raise ValueError("Ошибка ввода типа карты. Попробуйте еще раз")
 
 
-def get_date(dt_now: str) -> str:
-    """Функция возвращает текущую дату"""
-    return f"{dt_now[8:10]}.{dt_now[5:7]}.{dt_now[:4]}"
+def get_date(date_str: str) -> str:
+    """Функция возвращает текущую дату в формате ДД.ММ.ГГГГ."""
+    return f"{date_str[8:10]}.{date_str[5:7]}.{date_str[:4]}"
