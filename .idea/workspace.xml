@@ -92,7 +92,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_processing.test_filter_by_state_is">
+  <component name="RunManager" selected="Python tests.Python tests for test_processing.test_filter_by_state">
     <configuration name="Python tests for test_masks.test_get_mask_card_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
@@ -123,6 +123,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_processing.test_filter_by_state" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="27_01_2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_processing.test_filter_by_state&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_processing.test_filter_by_state_is" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
@@ -138,7 +153,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_processing.test_sort_by_date" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_widget.test_mask_account_card" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,32 +164,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_processing.test_sort_by_date&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_processing.test_sort_by_date_up" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="27_01_2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_processing.test_sort_by_date_up&quot;" />
+      <option name="_new_target" value="&quot;test_widget.test_mask_account_card&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_processing.test_filter_by_state" />
+        <item itemvalue="Python tests.Python tests for test_widget.test_mask_account_card" />
         <item itemvalue="Python tests.Python tests for test_processing.test_filter_by_state_is" />
         <item itemvalue="Python tests.Python tests for test_masks.test_get_mask_card_number" />
         <item itemvalue="Python tests.Python tests for test_processing.test_date_error" />
-        <item itemvalue="Python tests.Python tests for test_processing.test_sort_by_date_up" />
-        <item itemvalue="Python tests.Python tests for test_processing.test_sort_by_date" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739822285675</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed tests">
+      <option name="closed" value="true" />
+      <created>1739871377723</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739871377723</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +310,7 @@
     <MESSAGE value="the following file have been emended: README.md" />
     <MESSAGE value="new version README.md" />
     <MESSAGE value="add test for all function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test for all function" />
+    <MESSAGE value="fixed tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed tests" />
   </component>
 </project>

@@ -13,6 +13,8 @@ from src.widget import get_date, mask_account_card
     ],
 )
 def test_mask_account_card(account_card, expected_result):
+    """Проверка, что функция корректно распознает и применяет нужный тип маскировки в зависимости"""
+    """от типа входных данных (карта или счет)"""
     assert mask_account_card(account_card) == expected_result
 
 
@@ -23,11 +25,12 @@ def test_mask_account_card(account_card, expected_result):
     ],
 )
 def test_mask_account_card_error(account_card, expected_result):
+    """Тестирование функции на обработку некорректных входных данных и проверка ее устойчивости к ошибкам"""
     with pytest.raises(ValueError) as exc_info:
         assert mask_account_card(account_card)
     assert str(exc_info.value) == "Ошибка ввода типа карты. Попробуйте еще раз"
 
 
-# Дополнение функции для тестирования get_date()
 def test_get_date():
+    """Тестирование функции на корректность выводы текущей даты"""
     assert get_date("2025-02-15") == "15.02.2025"

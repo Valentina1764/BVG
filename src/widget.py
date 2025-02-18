@@ -1,10 +1,11 @@
 import re
+
 from src.masks import get_mask_account, get_mask_card_number
 
 
 def mask_account_card(account_card: str) -> str:
     """Функция для маскирования номеров карт и счетов."""
-    number_pattern = r'\d+'
+    number_pattern = r"\d+"
     number_match = re.search(number_pattern, account_card)
     number = number_match.group()
     if "Maestro" in account_card:
