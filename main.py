@@ -1,12 +1,16 @@
 import ast
+import json
 from datetime import datetime
 
+from src.generators import card_number_generator, filter_by_currency, transaction_descriptions
 from src.processing import filter_by_state, sort_by_date
 from src.widget import get_date, mask_account_card
 
 simple = open("data/card_account.txt", encoding="utf-8")
 for line in simple:
     print(mask_account_card(line))
+simple.close()
+
 
 now_date_time = str(datetime.now())
 now_date = get_date(now_date_time)
@@ -25,4 +29,26 @@ print(state_canceled, end="\n\n")
 sort_now_state = sort_by_date(now_state)
 print(sort_now_state, end="\n\n")
 sort_now_state = sort_by_date(now_state, False)
-print(sort_now_state)
+print(sort_now_state, end="\n\n")
+
+state_now.close()
+
+
+with open("data/transations.txt", "r", encoding="utf-8") as transactions:
+    transactions_today = json.load(transactions)
+    usd_transaction = filter_by_currency(transactions_today)
+    for _ in range(2):
+        print(next(usd_transaction))
+
+print(end="\n\n")
+
+descriptions = transaction_descriptions(transactions_today)
+for _ in range(5):
+    print(next(descriptions))
+
+print(end="\n\n")
+
+for card_number in card_number_generator(1, 5):
+    print(card_number)
+
+transactions.close()
