@@ -7,7 +7,7 @@ def mask_account_card(account_card: str) -> str:
     """Функция для маскирования номеров карт и счетов."""
     number_pattern = r"\d+"
     number_match = re.search(number_pattern, account_card)
-    number = number_match.group()
+    number = number_match.group(0)
     if "Maestro" in account_card:
         return f"Maestro {get_mask_card_number(number)}"
     elif "MasterCard" in account_card:
