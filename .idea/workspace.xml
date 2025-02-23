@@ -299,7 +299,39 @@
       <option name="project" value="LOCAL" />
       <updated>1740340079899</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348072521</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348072521</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348139551</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348139551</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348435345</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348435345</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348523462</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348523462</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +370,8 @@
     <MESSAGE value="fixed tests" />
     <MESSAGE value="fixed lesson 10.2 from 18.02" />
     <MESSAGE value="fixed lesson 11.1 from 23.02" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed lesson 11.1 from 23.02" />
+    <MESSAGE value="add htmlcov in git" />
+    <option name="LAST_COMMIT_MESSAGE" value="add htmlcov in git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
