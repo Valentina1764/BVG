@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/homework_10_2" />
+        <entry key="$PROJECT_DIR$" value="feature/homework_11_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +62,10 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for decorators.test_add.executor": "Debug",
+    "Python tests.Python tests for decorators.test_divide_by_zero.executor": "Run",
+    "Python tests.Python tests for test_api.TestConverterCurrency.test_converter_usd.executor": "Run",
+    "Python tests.Python tests for test_external_api.test_external_api.executor": "Run",
     "Python tests.Python tests for test_generators.test_card_number_generator.executor": "Run",
     "Python tests.Python tests for test_generators.test_empty_code.executor": "Run",
     "Python tests.Python tests for test_generators.test_empty_list_transactions.executor": "Run",
@@ -74,25 +78,61 @@
     "Python tests.Python tests for test_masks.test_mask_account_error.executor": "Run",
     "Python tests.Python tests for test_masks.test_mask_account_number.executor": "Run",
     "Python tests.Python tests for test_masks.test_mask_card_number_error.executor": "Run",
+    "Python tests.Python tests for test_my_decorators.test_error_handling_in_function.executor": "Run",
+    "Python tests.Python tests for test_my_decorators.test_logging_to_file.executor": "Run",
+    "Python tests.Python tests for test_my_decorators.test_successful_function_execution.executor": "Run",
     "Python tests.Python tests for test_processing.test_date_error.executor": "Run",
     "Python tests.Python tests for test_processing.test_filter_by_state.executor": "Run",
     "Python tests.Python tests for test_processing.test_filter_by_state_is.executor": "Run",
     "Python tests.Python tests for test_processing.test_sort_by_date.executor": "Run",
     "Python tests.Python tests for test_processing.test_sort_by_date_up.executor": "Run",
     "Python tests.Python tests for test_processing.test_state_error.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.test_file_not_found.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.test_json_decode_error.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_list.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_non_list.executor": "Run",
+    "Python tests.Python tests for test_utils.test_error_file_path.executor": "Run",
+    "Python tests.Python tests for test_utils.test_filter_by_currency.executor": "Run",
     "Python tests.Python tests for test_widget.test_get_date.executor": "Run",
     "Python tests.Python tests for test_widget.test_mask_account_card.executor": "Run",
     "Python tests.Python tests for test_widget.test_mask_account_card_error.executor": "Run",
     "Python tests.Python tests for test_widget.test_mask_accout_card.executor": "Run",
     "Python tests.Python tests for test_widget.test_mask_accout_card_error.executor": "Run",
+    "Python tests.Python tests in 0503.py.executor": "Run",
+    "Python tests.Python tests in 0503_2.py.executor": "Debug",
+    "Python tests.Python tests in decorator.py.executor": "Run",
+    "Python tests.Python tests in decorators.py.executor": "Run",
+    "Python tests.Python tests in my_decorators.py.executor": "Run",
+    "Python tests.Python tests in test_api.py.executor": "Run",
+    "Python tests.Python tests in test_decorators.py.executor": "Run",
+    "Python tests.Python tests in test_external_api.py.executor": "Run",
+    "Python tests.Python tests in test_generators.py.executor": "Run",
+    "Python tests.Python tests in test_masks.py.executor": "Run",
+    "Python tests.Python tests in test_my decorator_06_03.py.executor": "Run",
+    "Python tests.Python tests in test_my_decorators.py.executor": "Run",
+    "Python tests.Python tests in test_processing.py.executor": "Run",
+    "Python tests.Python tests in test_utils.py.executor": "Run",
+    "Python tests.pytest for src.my_decorators.executor": "Debug",
+    "Python tests.pytest for src.my_decorators.test_successful_function_execution.executor": "Debug",
+    "Python.0503.executor": "Debug",
+    "Python.0503_3.executor": "Run",
+    "Python.11.executor": "Debug",
+    "Python.decorators.executor": "Run",
+    "Python.ext.executor": "Run",
+    "Python.external_api.executor": "Run",
     "Python.generators.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.my_decorators (1).executor": "Run",
+    "Python.my_decorators.executor": "Run",
+    "Python.utils.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/homework__11__1",
+    "git-widget-placeholder": "#7 on feature/homework__11__2",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Python/Lesson/27_01_2025",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -101,8 +141,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_generators.test_filter_by_currency">
-    <configuration name="Python tests for test_generators.test_card_number_generator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Python\Lesson\27_01_2025\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_non_list">
+    <configuration name="Python tests for test_utils.TestLoadTransactions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,11 +158,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_generators.test_card_number_generator&quot;" />
+      <option name="_new_target" value="&quot;test_utils.TestLoadTransactions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_generators.test_empty_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_utils.TestLoadTransactions.test_file_not_found" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,11 +173,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_generators.test_empty_code&quot;" />
+      <option name="_new_target" value="&quot;test_utils.TestLoadTransactions.test_file_not_found&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_generators.test_error_card_number_generator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_utils.TestLoadTransactions.test_json_decode_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,11 +188,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_generators.test_error_card_number_generator&quot;" />
+      <option name="_new_target" value="&quot;test_utils.TestLoadTransactions.test_json_decode_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_generators.test_filter_by_currency" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_utils.TestLoadTransactions.test_valid_json_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,11 +203,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_generators.test_filter_by_currency&quot;" />
+      <option name="_new_target" value="&quot;test_utils.TestLoadTransactions.test_valid_json_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_generators.test_transaction_descriptions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_utils.TestLoadTransactions.test_valid_json_non_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,17 +218,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_generators.test_transaction_descriptions&quot;" />
+      <option name="_new_target" value="&quot;test_utils.TestLoadTransactions.test_valid_json_non_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_generators.test_filter_by_currency" />
-        <item itemvalue="Python tests.Python tests for test_generators.test_empty_code" />
-        <item itemvalue="Python tests.Python tests for test_generators.test_transaction_descriptions" />
-        <item itemvalue="Python tests.Python tests for test_generators.test_error_card_number_generator" />
-        <item itemvalue="Python tests.Python tests for test_generators.test_card_number_generator" />
+        <item itemvalue="Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_non_list" />
+        <item itemvalue="Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_list" />
+        <item itemvalue="Python tests.Python tests for test_utils.TestLoadTransactions.test_json_decode_error" />
+        <item itemvalue="Python tests.Python tests for test_utils.TestLoadTransactions.test_file_not_found" />
+        <item itemvalue="Python tests.Python tests for test_utils.TestLoadTransactions" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +344,71 @@
       <option name="project" value="LOCAL" />
       <updated>1740340079899</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348072521</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348072521</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348139551</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348139551</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348435345</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348435345</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348523462</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348523462</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add htmlcov in git">
+      <option name="closed" value="true" />
+      <created>1740348599189</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348599189</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add decorator and test decorator">
+      <option name="closed" value="true" />
+      <created>1741285242120</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1741285242120</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add decorator and test decorator">
+      <option name="closed" value="true" />
+      <created>1741285302269</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741285302269</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixing utils and external_api">
+      <option name="closed" value="true" />
+      <created>1741517217166</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741517217166</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +447,10 @@
     <MESSAGE value="fixed tests" />
     <MESSAGE value="fixed lesson 10.2 from 18.02" />
     <MESSAGE value="fixed lesson 11.1 from 23.02" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed lesson 11.1 from 23.02" />
+    <MESSAGE value="add htmlcov in git" />
+    <MESSAGE value="Add decorator and test decorator" />
+    <MESSAGE value="Fixing utils and external_api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing utils and external_api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
