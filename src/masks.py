@@ -1,7 +1,12 @@
 import logging
 
-logging.basicConfig(filename='./logs/masks.log', filemode='w', encoding='UTF-8',
-                    level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    filename="./logs/masks.log",
+    filemode="w",
+    encoding="UTF-8",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
 
 
 def get_mask_card_number(loc_number_card: str) -> str:
@@ -39,6 +44,7 @@ def get_mask_account(loc_number_account: str) -> str:
         logging.error(f"Произошла ошибка при маскировании номера счета: {e}")
         raise
 
-#if __name__ == "__main__":
+
+# if __name__ == "__main__":
 #    print(get_mask_card_number("1234567890123456"))  # Вывод: '1234 56** **** 3456'
 #    print(get_mask_account("12345678901234567890"))  # Вывод: '**********6789'

@@ -4,7 +4,7 @@ import time
 
 
 def log(filename=None):
-    '''Декоратор простых функций сложения и деления'''
+    """Декоратор простых функций сложения и деления"""
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 
