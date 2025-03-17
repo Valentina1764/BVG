@@ -1,6 +1,6 @@
 import pytest
 
-from src.generators import filter_by_currency, transaction_descriptions, card_number_generator
+from src.generators import card_number_generator, filter_by_currency, transaction_descriptions
 
 list_transactions = [
     {
@@ -197,9 +197,3 @@ def test_card_number_generator(start, end, expected_result):
     """Тест функции на корректность генерации номера карты"""
     actual_result = list(card_number_generator(start, end))
     assert actual_result == expected_result
-
-
-# def test_error_card_number_generator():
-#    with pytest.raises(ValueError) as exc_info:
-#        assert card_number_generator(6,  4)
-#    assert str(exc_info.value) == "Список трансакций пуст."

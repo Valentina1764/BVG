@@ -1,8 +1,8 @@
-from typing import List, Generator, Dict
+from typing import Dict, Generator, List
 
 
 def filter_by_currency(transactions: List[Dict], filter_currency: str = "USD") -> Generator[dict, None, None]:
-    '''Функция возвращает список трансакций по типу валюты'''
+    """Функция возвращает список трансакций по типу валюты"""
     if not transactions:
         raise ValueError("Список трансакций пуст.")
 
@@ -15,7 +15,7 @@ def filter_by_currency(transactions: List[Dict], filter_currency: str = "USD") -
 
 
 def transaction_descriptions(transactions: list) -> Generator[str, None, None]:
-    '''Функция возвращает значение ключа "description" из списка словарей трансакций'''
+    """Функция возвращает значение ключа "description" из списка словарей трансакций"""
     if not transactions:
         raise ValueError("Список трансакций пуст.")
 
