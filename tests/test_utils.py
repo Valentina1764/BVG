@@ -1,6 +1,6 @@
-import unittest
-from unittest.mock import patch, mock_open
 import json
+import unittest
+from unittest.mock import mock_open, patch
 
 from src.utils import load_transactions
 

@@ -1,6 +1,7 @@
 import csv
+from typing import Dict, List
+
 import pandas as pd
-from typing import List, Dict
 
 
 def read_csv_transactions(csv_file_path: str) -> List[Dict]:

@@ -3,13 +3,12 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from src.generators import card_number_generator, filter_by_currency, transaction_descriptions
-from src.processing import filter_by_state, sort_by_date
-from src.widget import get_date, mask_account_card
-from src.utils import load_transactions
 from src.external_api import converter_currency
 from src.finacial_operation import read_csv_transactions, read_excel_transactions
-
+from src.generators import card_number_generator, filter_by_currency, transaction_descriptions
+from src.processing import filter_by_state, sort_by_date
+from src.utils import load_transactions
+from src.widget import get_date, mask_account_card
 
 simple = open("data/card_account.txt", encoding="utf-8")
 for line in simple:

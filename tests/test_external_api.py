@@ -1,6 +1,8 @@
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
+
 from dotenv import load_dotenv
+
 from src.external_api import converter_currency
 
 load_dotenv()  # Загружаем переменные окружения
