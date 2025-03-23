@@ -58,117 +58,122 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for decorators.test_add.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for decorators.test_divide_by_zero.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api.TestConverterCurrency.test_converter_usd.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_example.TestExample.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_external_api.TestConverterCurrency.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_external_api.TestConverterCurrency.test_invalid_currency.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_external_api.test_external_api.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.TestCSVReader.test_read_csv_valid_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.TestReadCSVTransactions.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.TestReadCSVTransactions.test_successful_read.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.test_invalid_csv_file_path.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.test_invalid_file_path.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.test_invalid_xlsx_file_path.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.test_read_csv_transactions.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.test_read_excel_transactions.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.test_read_excel_valid_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_finacial_operation.test_successful_read.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_generators.test_card_number_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_generators.test_empty_code.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_generators.test_empty_list_transactions.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_generators.test_empty_list_transactions_for_transaction_descriptions.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_generators.test_empty_list_transactions_transaction_descriptions.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_generators.test_error_card_number_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_generators.test_filter_by_currency.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_generators.test_transaction_descriptions.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_masks.test_get_mask_card_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_masks.test_mask_account_error.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_masks.test_mask_account_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_masks.test_mask_card_number_error.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_decorators.test_error_handling_in_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_decorators.test_logging_to_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_decorators.test_successful_function_execution.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_processing.test_date_error.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_processing.test_filter_by_state.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_processing.test_filter_by_state_is.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_processing.test_sort_by_date.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_processing.test_sort_by_date_up.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_processing.test_state_error.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_utils.TestLoadTransactions.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_utils.TestLoadTransactions.test_file_not_found.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_utils.TestLoadTransactions.test_json_decode_error.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_non_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_utils.test_error_file_path.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_utils.test_filter_by_currency.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_widget.test_get_date.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_widget.test_mask_account_card.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_widget.test_mask_account_card_error.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_widget.test_mask_accout_card.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_widget.test_mask_accout_card_error.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 0503.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 0503_2.py.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests in decorator.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in decorators.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in my_decorators.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in new_test_finacial_operation.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_api.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_decorators.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_example.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_external_api.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_finacial_operation.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_generators.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_masks.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_my decorator_06_03.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_my_decorators.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_processing.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_utils.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for src.my_decorators.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.pytest for src.my_decorators.test_successful_function_execution.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.0503.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.0503_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.decorators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ext.executor&quot;: &quot;Run&quot;,
-    &quot;Python.external_api.executor&quot;: &quot;Run&quot;,
-    &quot;Python.finacial_operation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.masks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.my_decorators (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.my_decorators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operations (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.oprations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proba_file_path.executor&quot;: &quot;Run&quot;,
-    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/homework__13__2&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Python/Lesson/27_01_2025&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for decorators.test_add.executor": "Debug",
+    "Python tests.Python tests for decorators.test_divide_by_zero.executor": "Run",
+    "Python tests.Python tests for test_api.TestConverterCurrency.test_converter_usd.executor": "Run",
+    "Python tests.Python tests for test_example.TestExample.executor": "Run",
+    "Python tests.Python tests for test_external_api.TestConverterCurrency.executor": "Run",
+    "Python tests.Python tests for test_external_api.TestConverterCurrency.test_invalid_currency.executor": "Run",
+    "Python tests.Python tests for test_external_api.test_external_api.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.TestCSVReader.test_read_csv_valid_data.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.TestReadCSVTransactions.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.TestReadCSVTransactions.test_successful_read.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.test_invalid_csv_file_path.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.test_invalid_file_path.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.test_invalid_xlsx_file_path.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.test_read_csv_transactions.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.test_read_excel_transactions.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.test_read_excel_valid_data.executor": "Run",
+    "Python tests.Python tests for test_finacial_operation.test_successful_read.executor": "Run",
+    "Python tests.Python tests for test_generators.test_card_number_generator.executor": "Run",
+    "Python tests.Python tests for test_generators.test_empty_code.executor": "Run",
+    "Python tests.Python tests for test_generators.test_empty_list_transactions.executor": "Run",
+    "Python tests.Python tests for test_generators.test_empty_list_transactions_for_transaction_descriptions.executor": "Debug",
+    "Python tests.Python tests for test_generators.test_empty_list_transactions_transaction_descriptions.executor": "Run",
+    "Python tests.Python tests for test_generators.test_error_card_number_generator.executor": "Run",
+    "Python tests.Python tests for test_generators.test_filter_by_currency.executor": "Run",
+    "Python tests.Python tests for test_generators.test_transaction_descriptions.executor": "Run",
+    "Python tests.Python tests for test_masks.test_get_mask_card_number.executor": "Run",
+    "Python tests.Python tests for test_masks.test_mask_account_error.executor": "Run",
+    "Python tests.Python tests for test_masks.test_mask_account_number.executor": "Run",
+    "Python tests.Python tests for test_masks.test_mask_card_number_error.executor": "Run",
+    "Python tests.Python tests for test_my_decorators.test_error_handling_in_function.executor": "Run",
+    "Python tests.Python tests for test_my_decorators.test_logging_to_file.executor": "Run",
+    "Python tests.Python tests for test_my_decorators.test_successful_function_execution.executor": "Run",
+    "Python tests.Python tests for test_operations.TestOperations.test_count_categories.executor": "Run",
+    "Python tests.Python tests for test_operations.TestOperations.test_search_operations_by_currency.executor": "Run",
+    "Python tests.Python tests for test_operations.TestOperations.test_search_operations_by_description.executor": "Run",
+    "Python tests.Python tests for test_operations.TestOperations.test_search_operations_by_word.executor": "Run",
+    "Python tests.Python tests for test_operations.test_search_operations_by_description_case_insensitive.executor": "Run",
+    "Python tests.Python tests for test_processing.test_date_error.executor": "Run",
+    "Python tests.Python tests for test_processing.test_filter_by_state.executor": "Run",
+    "Python tests.Python tests for test_processing.test_filter_by_state_is.executor": "Run",
+    "Python tests.Python tests for test_processing.test_sort_by_date.executor": "Run",
+    "Python tests.Python tests for test_processing.test_sort_by_date_up.executor": "Run",
+    "Python tests.Python tests for test_processing.test_state_error.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.test_file_not_found.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.test_json_decode_error.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_list.executor": "Run",
+    "Python tests.Python tests for test_utils.TestLoadTransactions.test_valid_json_non_list.executor": "Run",
+    "Python tests.Python tests for test_utils.test_error_file_path.executor": "Run",
+    "Python tests.Python tests for test_utils.test_filter_by_currency.executor": "Run",
+    "Python tests.Python tests for test_widget.test_get_date.executor": "Run",
+    "Python tests.Python tests for test_widget.test_mask_account_card.executor": "Run",
+    "Python tests.Python tests for test_widget.test_mask_account_card_error.executor": "Run",
+    "Python tests.Python tests for test_widget.test_mask_accout_card.executor": "Run",
+    "Python tests.Python tests for test_widget.test_mask_accout_card_error.executor": "Run",
+    "Python tests.Python tests in 0503.py.executor": "Run",
+    "Python tests.Python tests in 0503_2.py.executor": "Debug",
+    "Python tests.Python tests in decorator.py.executor": "Run",
+    "Python tests.Python tests in decorators.py.executor": "Run",
+    "Python tests.Python tests in my_decorators.py.executor": "Run",
+    "Python tests.Python tests in new_test_finacial_operation.py.executor": "Run",
+    "Python tests.Python tests in test_api.py.executor": "Run",
+    "Python tests.Python tests in test_decorators.py.executor": "Run",
+    "Python tests.Python tests in test_example.py.executor": "Run",
+    "Python tests.Python tests in test_external_api.py.executor": "Run",
+    "Python tests.Python tests in test_finacial_operation.py.executor": "Run",
+    "Python tests.Python tests in test_generators.py.executor": "Run",
+    "Python tests.Python tests in test_masks.py.executor": "Run",
+    "Python tests.Python tests in test_my decorator_06_03.py.executor": "Run",
+    "Python tests.Python tests in test_my_decorators.py.executor": "Run",
+    "Python tests.Python tests in test_processing.py.executor": "Run",
+    "Python tests.Python tests in test_utils.py.executor": "Run",
+    "Python tests.pytest for src.my_decorators.executor": "Debug",
+    "Python tests.pytest for src.my_decorators.test_successful_function_execution.executor": "Debug",
+    "Python.0503.executor": "Debug",
+    "Python.0503_3.executor": "Run",
+    "Python.11.executor": "Debug",
+    "Python.decorators.executor": "Run",
+    "Python.ext.executor": "Run",
+    "Python.external_api.executor": "Run",
+    "Python.finacial_operation.executor": "Run",
+    "Python.generators.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.masks.executor": "Run",
+    "Python.my_decorators (1).executor": "Run",
+    "Python.my_decorators.executor": "Run",
+    "Python.operations (1).executor": "Run",
+    "Python.oprations.executor": "Run",
+    "Python.proba_file_path.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/homework__13__2",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Python/Lesson/27_01_2025",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Python\Lesson\27_01_2025\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_example.py">
-    <configuration name="Python tests for test_example.TestExample" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_widget.test_get_date">
+    <configuration name="Python tests for test_operations.TestOperations.test_count_categories" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,11 +184,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_example.TestExample&quot;" />
+      <option name="_new_target" value="&quot;test_operations.TestOperations.test_count_categories&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_external_api.TestConverterCurrency" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_operations.TestOperations.test_search_operations_by_currency" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,11 +199,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_external_api.TestConverterCurrency&quot;" />
+      <option name="_new_target" value="&quot;test_operations.TestOperations.test_search_operations_by_currency&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_external_api.TestConverterCurrency.test_invalid_currency" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_operations.TestOperations.test_search_operations_by_description" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,11 +214,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_external_api.TestConverterCurrency.test_invalid_currency&quot;" />
+      <option name="_new_target" value="&quot;test_operations.TestOperations.test_search_operations_by_description&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_example.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_operations.TestOperations.test_search_operations_by_word" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,11 +229,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_example.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_operations.TestOperations.test_search_operations_by_word&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_my_decorators.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_widget.test_get_date" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="27_01_2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,17 +244,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_my_decorators.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_widget.test_get_date&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_example.py" />
-        <item itemvalue="Python tests.Python tests for test_example.TestExample" />
-        <item itemvalue="Python tests.Python tests in test_my_decorators.py" />
-        <item itemvalue="Python tests.Python tests for test_external_api.TestConverterCurrency" />
-        <item itemvalue="Python tests.Python tests for test_external_api.TestConverterCurrency.test_invalid_currency" />
+        <item itemvalue="Python tests.Python tests for test_widget.test_get_date" />
+        <item itemvalue="Python tests.Python tests for test_operations.TestOperations.test_count_categories" />
+        <item itemvalue="Python tests.Python tests for test_operations.TestOperations.test_search_operations_by_word" />
+        <item itemvalue="Python tests.Python tests for test_operations.TestOperations.test_search_operations_by_currency" />
+        <item itemvalue="Python tests.Python tests for test_operations.TestOperations.test_search_operations_by_description" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +474,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742155138827</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fixing operations.py">
+      <option name="closed" value="true" />
+      <created>1742747226697</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1742747226697</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fixing operations.py, main.py">
+      <option name="closed" value="true" />
+      <created>1742747279520</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1742747279520</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixing test operations.py">
+      <option name="closed" value="true" />
+      <created>1742753708155</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1742753708155</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,6 +545,9 @@
     <MESSAGE value="Fixing finacial_operation.py" />
     <MESSAGE value="Fixing tests finacial_operation.py" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="Fixing operations.py" />
+    <MESSAGE value="Fixing operations.py, main.py" />
+    <MESSAGE value="Fixing test operations.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing test operations.py" />
   </component>
 </project>

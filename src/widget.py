@@ -5,7 +5,7 @@ from src.masks import get_mask_account, get_mask_card_number
 
 def mask_account_card(account_card: str) -> str:
     """Функция для маскирования номеров карт и счетов."""
-    if account_card == '':
+    if account_card == '' or account_card == 'nan':
         return f"Источник средств не известен"
     else:
         number_match = re.findall(r'[\d]+', account_card)

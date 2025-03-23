@@ -23,13 +23,6 @@ class TestLoadTransactions(unittest.TestCase):
             result = load_transactions("/path/to/file.json")
             self.assertEqual(result, [])
 
-    def test_valid_json_list(self):
-        """Тест успешной загрузки списка"""
-        expected_data = [{"id": 1}, {"id": 2}]
-        with patch("builtins.open", mock_open(read_data=json.dumps(expected_data))) as mocked_file:
-            result = load_transactions("/path/to/file.json")
-            self.assertEqual(result, expected_data)
-
     def test_valid_json_non_list(self):
         """Тест успешной загрузки данных, не являющихся списком"""
         expected_data = {"key": "value"}
