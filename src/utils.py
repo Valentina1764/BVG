@@ -1,9 +1,9 @@
 import json
-#import logging
+# import logging
 from pathlib import Path
 
-#logger = logging.getLogger(__name__)
-#logger.setLevel(logging.DEBUG)
+# logger = logging.getLogger(__name__)
+# logger.setLevel(logging.DEBUG)
 # formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 # log_file = "./logs/utils.log"
 # file_handler = logging.FileHandler(log_file, "w", encoding="UTF-8")
@@ -22,20 +22,23 @@ def load_transactions(file_path: str) -> list:
                 results = []
                 for dict_in_data in data:
                     result = {
-                        "id": get_safe_value(dict_in_data,"id"),
-                        "state": get_safe_value(dict_in_data,"state"),
-                        "date": get_safe_value(dict_in_data,"date"),
-                        "amount": get_safe_value(get_safe_value(dict_in_data,"operationAmount", {}),
-                                                 "amount", ""),
-                        "currency_name": get_safe_value(get_safe_value(get_safe_value(dict_in_data,
-                                        "operationAmount", {}), "currency", {}),
-                                        "name", ""),
-                        "currency_code": get_safe_value(get_safe_value(get_safe_value(dict_in_data,
-                                        "operationAmount", {}), "currency", {}),
-                                        "code", ""),
-                        "description": get_safe_value(dict_in_data,"description"),
-                        "from": get_safe_value(dict_in_data,"from"),
-                        "to": get_safe_value(dict_in_data,"to")
+                        "id": get_safe_value(dict_in_data, "id"),
+                        "state": get_safe_value(dict_in_data, "state"),
+                        "date": get_safe_value(dict_in_data, "date"),
+                        "amount": get_safe_value(get_safe_value(dict_in_data, "operationAmount", {}), "amount", ""),
+                        "currency_name": get_safe_value(
+                            get_safe_value(get_safe_value(dict_in_data, "operationAmount", {}), "currency", {}),
+                            "name",
+                            "",
+                        ),
+                        "currency_code": get_safe_value(
+                            get_safe_value(get_safe_value(dict_in_data, "operationAmount", {}), "currency", {}),
+                            "code",
+                            "",
+                        ),
+                        "description": get_safe_value(dict_in_data, "description"),
+                        "from": get_safe_value(dict_in_data, "from"),
+                        "to": get_safe_value(dict_in_data, "to"),
                     }
                     results.append(result)
                 return results
@@ -50,6 +53,6 @@ def load_transactions(file_path: str) -> list:
         return []
 
 
-def get_safe_value(obj, key, default=''):
+def get_safe_value(obj, key, default=""):
     """Безопасная функция получения значения по ключу."""
     return obj.get(key, default)

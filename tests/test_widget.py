@@ -17,6 +17,7 @@ def test_mask_account_card(account_card, expected_result):
     """от типа входных данных (карта или счет)"""
     assert mask_account_card(account_card) == expected_result
 
+
 def test_get_date():
     """Тестирование функции на корректность выводы текущей даты"""
     assert get_date("2025-02-15") == "15.02.2025"
