@@ -1,12 +1,44 @@
-def main():
-    '''Функция получения информации от пользователя для обработки списка банковских операций'''
-    print(f'''Привет! Добро пожаловать в программу работы с банковскими транзакциями.
-    Выберите необходимый пункт меню:
-    1. Получить информацию о транзакциях из JSON-файла
-    2. Получить информацию о транзакциях из CSV-файле
-    3. Получить информацию о транзакциях из XLSX-файла''', end="\n")
-    type_input_file = input()
+import re
+from collections import Counter
 
 
-if __name__ == "__main__":
-    main()
+def search_operations_by_description(operations: list, search_string: str) -> list:
+    """ Функция для поиска в списке словарей операций по заданной строке состояния."""
+    pattern = re.compile(search_string, re.IGNORECASE)
+    results = []
+    for operation in operations:
+        if pattern.search(operation.get('state', '')):
+            results.append(operation)
+
+    return results
+
+
+def search_operations_by_currency(operations: list, search_string: str) -> list:
+    """ Функция для поиска в списке словарей операций по заданной валюте."""
+    pattern = re.compile(search_string, re.IGNORECASE)
+    results = []
+    for operation in operations:
+        if pattern.search(operation.get('currency_code', '')):
+            results.append(operation)
+
+    return results
+
+
+def search_operations_by_word(operations: list, search_string: str) -> list:
+    """ Функция для поиска в списке словарей операций по заданному слову."""
+    pattern = re.compile(search_string, re.IGNORECASE)
+    results = []
+    for operation in operations:
+        if pattern.search(operation.get('description', '')):
+            results.append(operation)
+    return results
+
+
+def count_categories(transactions: list, description_list: list) -> dict:
+    """ Функция для подсчета количества банковских операций определенного типа."""
+    counter = Counter()
+    for transaction in transactions:
+        if 'description' in transaction and transaction['description'] in description_list:
+            counter[transaction['description']] += 1
+
+    return dict(counter)
