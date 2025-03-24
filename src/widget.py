@@ -5,23 +5,17 @@ from src.masks import get_mask_account, get_mask_card_number
 
 def mask_account_card(account_card: str) -> str:
     """Функция для маскирования номеров карт и счетов."""
-    number_pattern = r"\d+"
-    number_match = re.search(number_pattern, account_card)
-    number = number_match.group(0)
-    if "Maestro" in account_card:
-        return f"Maestro {get_mask_card_number(number)}"
-    elif "MasterCard" in account_card:
-        return f"MasterCard {get_mask_card_number(number)}"
-    elif "Visa Classic" in account_card:
-        return f"Visa Classic {get_mask_card_number(number)}"
-    elif "Visa Platinum" in account_card:
-        return f"Visa Platinum {get_mask_card_number(number)}"
-    elif "Visa Gold" in account_card:
-        return f"Visa Gold {get_mask_card_number(number)}"
-    elif "Счет" in account_card:
-        return f"Счет {get_mask_account(number)}"
+    if account_card == "" or account_card == "nan":
+        return "Источник средств не известен"
     else:
-        raise ValueError("Ошибка ввода типа карты. Попробуйте еще раз")
+        number_match = re.findall(r"[\d]+", account_card)
+        number = "".join(map(str, number_match))
+        name_card = re.findall(r"[^\d]+", account_card)
+        name_card_str = "".join(map(str, name_card))
+        if name_card_str == "Счет ":
+            return f"{name_card_str} {get_mask_account(number)}"
+        else:
+            return f"{name_card_str} {get_mask_card_number(number)}"
 
 
 def get_date(date_str: str) -> str:
